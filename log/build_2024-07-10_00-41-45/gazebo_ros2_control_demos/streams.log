@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/build/gazebo_ros2_control_demos -- -j16 -l16
+[0.072s] [  7%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[0.073s] [ 21%] Built target example_position_pid
+[0.074s] [ 28%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[0.075s] [ 35%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[0.075s] [ 50%] Built target example_effort
+[0.076s] [ 57%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[0.077s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_diff_drive.cpp: No such file or directory
+[0.077s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp: No such file or directory
+[0.077s] compilation terminated.
+[0.077s] compilation terminated.
+[0.077s] gmake[2]: *** [CMakeFiles/example_diff_drive.dir/build.make:76: CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o] Error 1
+[0.078s] gmake[2]: *** [CMakeFiles/example_velocity.dir/build.make:76: CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o] Error 1
+[0.078s] gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/example_diff_drive.dir/all] Error 2
+[0.078s] gmake[1]: *** Waiting for unfinished jobs....
+[0.078s] gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/example_velocity.dir/all] Error 2
+[0.078s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_tricycle_drive.cpp: No such file or directory
+[0.078s] compilation terminated.
+[0.078s] gmake[2]: *** [CMakeFiles/example_tricycle_drive.dir/build.make:76: CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o] Error 1
+[0.078s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/example_tricycle_drive.dir/all] Error 2
+[0.079s] [ 64%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[0.081s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp: No such file or directory
+[0.081s] compilation terminated.
+[0.081s] gmake[2]: *** [CMakeFiles/example_gripper.dir/build.make:76: CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o] Error 1
+[0.082s] gmake[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/example_gripper.dir/all] Error 2
+[2.434s] [ 71%] [32m[1mLinking CXX executable example_position[0m
+[2.576s] [ 71%] Built target example_position
+[2.577s] gmake: *** [Makefile:146: all] Error 2
+[2.581s] Invoked command in '/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/build/gazebo_ros2_control_demos' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/build/gazebo_ros2_control_demos -- -j16 -l16

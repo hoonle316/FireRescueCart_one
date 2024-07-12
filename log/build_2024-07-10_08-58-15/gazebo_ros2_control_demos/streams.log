@@ -1,0 +1,13 @@
+[0.015s] Invoking command in '/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/build/gazebo_ros2_control_demos -- -j16 -l16
+[0.068s] [ 25%] Built target example_position_pid
+[0.069s] [ 50%] Built target example_effort
+[0.072s] [ 62%] [32mBuilding CXX object CMakeFiles/example_teleop_joint.dir/examples/example_teleop_joint.cpp.o[0m
+[0.073s] [ 87%] Built target example_position
+[0.176s] [01m[K/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_teleop_joint.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
+[0.176s]     7 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
+[0.176s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.177s] compilation terminated.
+[0.177s] gmake[2]: *** [CMakeFiles/example_teleop_joint.dir/build.make:76: CMakeFiles/example_teleop_joint.dir/examples/example_teleop_joint.cpp.o] Error 1
+[0.178s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/example_teleop_joint.dir/all] Error 2
+[0.178s] gmake: *** [Makefile:146: all] Error 2
+[0.182s] Invoked command in '/home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/build/gazebo_ros2_control_demos' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/build/gazebo_ros2_control_demos -- -j16 -l16

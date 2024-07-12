@@ -1,0 +1,4 @@
+[ 25%] Built target example_position_pid
+[ 50%] Built target example_effort
+[ 62%] [32mBuilding CXX object CMakeFiles/example_teleop_joint.dir/examples/example_teleop_joint.cpp.o[0m
+[ 87%] Built target example_position
